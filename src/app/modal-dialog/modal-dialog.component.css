@@ -1,0 +1,53 @@
+/* .dark-modal .modal-content {
+  background-color: #292b2c;
+  color: white;
+}
+
+.dark-modal .close {
+  color: white;
+}
+
+.light-blue-backdrop {
+  background-color: #5cb3fd;
+}
+
+.modal-header {
+  border-radius: 3px;
+  padding: .5em;
+  color: white;
+  flex: 1;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.modal-header, h4, .close {
+  background-color: #bbbbbb;
+  color:black !important;
+  font-size: 1rem;
+  margin: 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  vertical-align: middle;
+}
+
+.modal-body {
+  font-size: .7rem;
+  margin: 3px;
+  padding: 16px;
+  
+}
+.modal-footer {
+  font-size: 1rem;
+ 
+  padding-top: 0px;
+  padding-bottom: 0px;
+  vertical-align: middle;
+}
+.close {
+  color:black !important;
+
+  font-size: 24px;
+  margin: 3px;
+
+}
