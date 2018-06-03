@@ -1,0 +1,15 @@
+<ngb-tabset>
+
+    <ngb-tab *ngFor="let tab of tabs" [title]="tab.title" [disabled]="tab.disabled">
+        <ng-template ngbTabContent>
+          <br/>
+          <br/>
+          <p>Add form here</p>
+          {{tab.content}}
+          <br/>
+          
+        </ng-template>
+      </ngb-tab>
+
+</ngb-tabset> 
+
