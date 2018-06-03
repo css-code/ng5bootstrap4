@@ -32,7 +32,7 @@ body {
 }
 
 .modal-body {
-  font-size: .7rem;
+  font-size: .8rem;
   margin: 3px;
   padding: 16px;
   
@@ -40,8 +40,8 @@ body {
 .modal-footer {
   font-size: 1rem;
  
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   vertical-align: middle;
 }
 .close {
@@ -50,4 +50,9 @@ body {
   font-size: 24px;
   margin: 3px;
 
+}
+
+.modal-header {
+  border-radius: 3px;
+  
 }
